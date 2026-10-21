@@ -6,11 +6,6 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  let suit: 'club' | 'spade' | 'heart' | 'diamond' = 'club';
-  suit = 'club';
-
-  let arrayOfThings: (string | number)[] = [1, "two", "three"];
-  let anotherArrayOfThings: Array<string | number> = [1, "two", "three"];
 
   return (
     <>
