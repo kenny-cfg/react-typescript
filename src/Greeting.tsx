@@ -1,6 +1,9 @@
+type GreetingType = 'hello' | 'goodbye';
+type NameType = string;
+
 interface GreetingProps {
-  greeting: 'hello' | 'goodbye',
-  name: string
+  greeting: GreetingType,
+  name: NameType
 }
 
 const Greeting = ({ greeting, name }: GreetingProps) => {

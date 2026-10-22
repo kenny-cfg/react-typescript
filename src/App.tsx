@@ -5,6 +5,7 @@ function App() {
   return (
     <>
       <Greeting greeting="hello" name="Katie" />
+      <Greeting greeting="goodbye" name="Kirstie" />
     </>
   )
 }
