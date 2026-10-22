@@ -1,7 +1,12 @@
 type GreetingType = 'hello' | 'goodbye';
 type NameType = string;
 
-interface GreetingProps {
+// interface GreetingProps {
+//   greeting: GreetingType,
+//   name: NameType
+// }
+
+type GreetingProps = {
   greeting: GreetingType,
   name: NameType
 }
