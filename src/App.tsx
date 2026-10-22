@@ -4,7 +4,7 @@ import Greeting from './Greeting'
 function App() {
   return (
     <>
-      <Greeting />
+      <Greeting greeting="hello" name="Katie" />
     </>
   )
 }
