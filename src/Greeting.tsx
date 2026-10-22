@@ -1,18 +1,10 @@
-type GreetingType = 'hello' | 'goodbye';
-type NameType = string;
-
-// interface GreetingProps {
-//   greeting: GreetingType,
-//   name: NameType
-// }
-
 type GreetingProps = {
-  greeting: GreetingType,
-  name: NameType
+  name: string,
+  age: number
 }
 
-const Greeting = ({ greeting, name }: GreetingProps) => {
-  return <p>{greeting} {name}!</p>
+const Greeting = ({ age, name }: GreetingProps) => {
+  return <p>{name} is {age} years old</p>
 }
 
 export default Greeting;
